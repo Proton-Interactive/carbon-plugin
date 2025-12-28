@@ -2,7 +2,7 @@ local HttpService = game:GetService("HttpService")
 local Selection = game:GetService("Selection")
 
 local PORT = 8000
-local HOST = "http://192.168.68.64:" .. tostring(PORT)
+local HOST = "http://127.0.0.1:" .. tostring(PORT)
 
 local toolbar = plugin:CreateToolbar("Carbon")
 local connectButton = toolbar:CreateButton("Connect", "Connect to Carbon Core", "")
